@@ -24,7 +24,8 @@
       "executor": "@nrwl/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "movie-review:build"
+        "buildTarget": "movie-review:build",
+        "proxyConfig": "apps/movie-review/proxy.conf.json"
       },
       "configurations": {
         "development": {
